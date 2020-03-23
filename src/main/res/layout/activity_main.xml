@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:scaleType="fitXY"
+        android:layout_weight="4"
+        android:src="@drawable/pkmn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siam's Pokemon Shop"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/ceruleanBlue"
+        android:background="@drawable/textview_border"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp" >
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/maps_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:text="1234 Nintendo St. Akhira, Japan 30303" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/phone_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="(678) 212-7123" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:text="About Us"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="One stop shot for everything Pokemon! Come and see our wide collection of games, cards and action figures! We have all the latest items for all ages and generations of the Pokemon journey. "
+        android:paddingLeft="25dp"
+        android:paddingRight="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>
